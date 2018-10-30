@@ -49,6 +49,7 @@ function sc_func($assets, $content){
   			<?php while($query->have_posts()):$query->the_post();?>
   				<div class="row">
     				<div class="col-md-8 offset-md-2">
+					<?php the_post_thumbnail(); ?>
           				<h2 class="article-title">
             				<?php the_title(); ?>
           				</h2>
@@ -70,6 +71,7 @@ function sc_func1($assets, $content){
   			<div class="row">
     			<div class="col-md-8 offset-md-2">
           			<h2 class="article-title">
+				<?php the_post_thumbnail(); ?>
             			<?php the_title(); ?>
           			</h2>
 				<?php the_content();?>
