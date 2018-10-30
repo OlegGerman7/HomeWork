@@ -60,8 +60,8 @@ function sc_func($assets, $content){
 		</div>
 <?php } ?>
 <?php wp_reset_postdata(); ?>
-<?php add_shortcode( 'sc1', sc_func1 );
 
+<?php add_shortcode( 'sc1', sc_func1 );
 function sc_func1($assets, $content){
 	$query = new WP_Query( array( 'post_type'=> $assets['type'], 
 	'post__in' => array( $assets['id'] ) ) ); ?>
