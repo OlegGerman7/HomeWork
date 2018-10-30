@@ -5,7 +5,6 @@
  				записи по определенным критериям
  * Author:      Герман О.Ю.
  * Version:     1.0
- *
  */
 add_action('init', 'my_custom_init');
 function my_custom_init(){
