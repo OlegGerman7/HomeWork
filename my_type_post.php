@@ -53,7 +53,7 @@ function sc_func($assets, $content){
           				<h2 class="article-title">
             				<?php the_title(); ?>
           				</h2>
-						<?php the_content();?>
+					<?php the_content();?>
     				</div>
   				</div> 
   		<?php endwhile; ?> 
@@ -73,7 +73,7 @@ function sc_func1($assets, $content){
           			<h2 class="article-title">
             			<?php the_title(); ?>
           			</h2>
-					<?php the_content();?>
+				<?php the_content();?>
         		</div>
     		</div>
   	</div> 
